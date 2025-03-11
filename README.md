@@ -9,20 +9,21 @@ Built using **React (TypeScript), Three.js, Flask, and Trimesh** for 3D model co
 
 # Clone repo & move into project folder
 
-git clone https://github.com/RahulVijaySingh/INSIDE.IO.git
-cd INSIDE.IO
+- git clone https://github.com/RahulVijaySingh/INSIDE.IO.git
+
+- cd INSIDE.IO
 
 # Backend Setup
 
-cd backend
-pip install -r requirements.txt
-python app.py & # Run backend in background
+- cd backend
+- pip install -r requirements.txt
+- python app.py & # Run backend in background
 
 # Frontend Setup
 
-cd ../frontend
-npm install
-npm run dev # Start frontend
+- cd ../frontend
+- npm install
+- npm run dev # Start frontend
 
 ## 📌 Features
 
