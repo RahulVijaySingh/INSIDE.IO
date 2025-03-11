@@ -5,6 +5,25 @@ Built using **React (TypeScript), Three.js, Flask, and Trimesh** for 3D model co
 
 ---
 
+## 🔧 Installation & Setup
+
+# Clone repo & move into project folder
+
+git clone https://github.com/RahulVijaySingh/INSIDE.IO.git
+cd INSIDE.IO
+
+# Backend Setup
+
+cd backend
+pip install -r requirements.txt
+python app.py & # Run backend in background
+
+# Frontend Setup
+
+cd ../frontend
+npm install
+npm run dev # Start frontend
+
 ## 📌 Features
 
 ✅ Upload & view STL and OBJ files in 3D  
@@ -21,12 +40,3 @@ Built using **React (TypeScript), Three.js, Flask, and Trimesh** for 3D model co
 - **Storage:** Local file storage for uploads & exports
 
 ---
-
-## 🔧 Installation & Setup
-
-### **1️⃣ Clone the Repository**
-
-```sh
-git clone https://github.com/yourusername/3D-CAD-Viewer.git
-cd 3D-CAD-Viewer
-```
